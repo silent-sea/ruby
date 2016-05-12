@@ -21,6 +21,13 @@ class HerosController < ApplicationController
     end
   end
 
+  def destroy
+    @hero = Hero.find(params[:id])
+    @hero.destroy
+
+    redirect_to heros_path
+  end
+
   private
   def hero_params
     params.require(:hero).permit(:name)

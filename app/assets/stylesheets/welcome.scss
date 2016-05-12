@@ -185,18 +185,6 @@ main {
   width: calc(100% - 260px);
   margin-left: 260px;
   height: 50px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
   color: white;
   position: fixed;
 }
@@ -276,4 +264,10 @@ h1 {
 .alert-danger {
   background: red;
   color: white;
+}
+
+.top_sink {
+  background: white;
+  border: 1px solid blue;
+  padding: 5px;
 }
