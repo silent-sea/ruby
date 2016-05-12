@@ -12,4 +12,9 @@ Rails.application.routes.draw do
   end
 
   root 'welcome#index'
+
+  resources :heros
+  #get '/heross/:id', to: 'heross#show'
+  #get '/heross/create', to: 'heross#create'
+
 end

@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  daysalive: 1
+  level: 1
+  exp: 1
+  class: MyString
+  health: 1
+  user_id: 
+
+two:
+  name: MyString
+  daysalive: 1
+  level: 1
+  exp: 1
+  class: MyString
+  health: 1
+  user_id: 

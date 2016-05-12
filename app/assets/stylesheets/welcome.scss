@@ -261,3 +261,19 @@ main {
 h1 {
   margin: 0 0 15px 0;
 }
+
+.alert {
+  padding: 10px;
+  border-radius: 4px;
+  background: grey;
+}
+
+.alert-success {
+  background: green;
+  color: lightgreen;
+}
+
+.alert-danger {
+  background: red;
+  color: white;
+}
