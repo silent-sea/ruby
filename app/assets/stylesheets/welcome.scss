@@ -187,6 +187,7 @@ main {
   height: 50px;
   color: white;
   position: fixed;
+  padding-top: 10px;
 }
 
 @media screen and (max-width: 1120px) {
@@ -266,8 +267,44 @@ h1 {
   color: white;
 }
 
-.top_sink {
-  background: white;
-  border: 1px solid blue;
-  padding: 5px;
+.top_acc_sink {
+  background: #266ea5;
+  border: 1px solid #235686;
+  padding: 8px;
+  border-radius: 3px;
+  font-size: 9.5pt;
+  margin-right: 20px;
+
+  a:hover,
+  a:visited,
+  a:active,
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .acctag {
+    font-size: 8pt;
+  }
+}
+
+.top_hero_sink {
+  background: #a55b56;
+  border: 1px solid #861524;
+  padding: 8px;
+  border-radius: 3px;
+  font-size: 9.5pt;
+  margin-left: 20px;
+
+  a:hover,
+  a:visited,
+  a:active,
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .acctag {
+    font-size: 8pt;
+  }
 }
