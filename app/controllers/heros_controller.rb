@@ -15,6 +15,11 @@ class HerosController < ApplicationController
     @hero = Hero.new(hero_params)
 
     @hero.user_id = current_user.id
+    @hero.daysalive = 0
+    @hero.level = 0
+    @hero.exp = 0
+    @hero.hclass = "No Class"
+    @hero.health = 0
 
     if @hero.save
       redirect_to @hero

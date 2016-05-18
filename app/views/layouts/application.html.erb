@@ -38,7 +38,11 @@
 <div class="topnav">
   <% if user_signed_in? %>
       <div class="top_hero_sink left">
-        <%= current_user.username %>
+        <% if @hero.blank? %>
+          No Hero
+        <% else %>
+          <%= @hero.name %>
+        <% end %>
       </div>
 
       <div class="top_acc_sink right">
