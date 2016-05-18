@@ -31,7 +31,7 @@ class HerosController < ApplicationController
   end
 
   private
-  def hero_params
-    params.require(:hero).permit(:name)
-  end
+    def hero_params
+      params.require(:hero).permit(:name)
+    end
 end

@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
 
-    devise_for :users, controllers: {
-        sessions: 'users/sessions',
-        registrations: 'users/registrations'
-    }
+  devise_for :users, controllers: {
+      sessions: 'users/sessions',
+      registrations: 'users/registrations'
+  }
 
   get 'welcome/index'
 
@@ -14,7 +14,5 @@ Rails.application.routes.draw do
   root 'welcome#index'
 
   resources :heros
-  #get '/heross/:id', to: 'heross#show'
-  #get '/heross/create', to: 'heross#create'
 
 end

@@ -1,11 +1,11 @@
-class Createheross < ActiveRecord::Migration
+class CreateHeros < ActiveRecord::Migration
   def change
-    create_table :heross do |t|
+    create_table :heros do |t|
       t.string :name
       t.integer :daysalive
       t.integer :level
       t.integer :exp
-      t.string :class
+      t.string :hclass
       t.integer :health
       t.references :user, index: true, foreign_key: true
 

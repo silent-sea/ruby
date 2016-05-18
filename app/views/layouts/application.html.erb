@@ -38,7 +38,7 @@
 <div class="topnav">
   <% if user_signed_in? %>
       <div class="top_hero_sink left">
-        <%= @hero.name %>
+        <%= current_user.username %>
       </div>
 
       <div class="top_acc_sink right">
